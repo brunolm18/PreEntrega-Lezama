@@ -8,7 +8,7 @@ const Button = (props) => {
   return (
     <button
       onClick={handleClick}
-      className={`px-4 py-2 text-white rounded ${isDisabled ? 'bg-gray-500 cursor-not-allowed' : `bg-${colorState}-500`}`}
+      className={`px-4 py-2  rounded ${isDisabled ? 'bg-gray-500 cursor-not-allowed' : `bg-${colorState}-500`}`}
       disabled={isDisabled}
     > 
       {children}

@@ -12,7 +12,7 @@ const Item = (props) => {
         <p className="text-gray-700 text-base">{text}</p>
         <p className="text-gray-900 font-bold text-xl mt-2">$ {price}</p>
         <Link to={`/item/${id}`}>
-          <Button>Ver Detalle</Button>
+          <Button classname="">Ver Detalle</Button>
         </Link>
       </div>
     </div>
